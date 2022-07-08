@@ -23,9 +23,31 @@ We are provided with historical sales data for 1,115 Rossmann stores. Our task i
 
 <h2> :book: Data Description</h2>
 
+This dataset was originally used in a [Kaggle competition](https://www.kaggle.com/c/rossmann-store-sales)
 The dataset contains information about the stores and its sales. Two datasets are provided.
 <li>stores_data.csv - historical data including Sales</li>
 <li>store.csv - supplemental information about the stores</li>
+
+<h2> :book: Setup</h2>
+
+All code for this project is written in [Python 3](https://www.python.org/downloads/). The list of dependencies can be found in `requirements.txt`. To set up your development environment, navigate to this repository and run the following on a terminal:
+
+```
+$ pip install -r requirements.txt
+```
+
+The `data/` directory contains all data files downloaded from Kaggle. The `plots/` directory contains all plots generated and all output files are recorded in the `predictions/` directory.
+
+<h2> :book: Approach</h2>
+<li>Loading our dataset and importing all the useful libraries</li>
+<li>Data preprocessing and Feature Engineering</li>
+<li>Scaling numeric features to a (0,1) range</li>
+<li>Exploratory Data Analysis</li>
+<li>Merging of Datasets</li>
+<li>Encoding of categorical columns as one hot vectors</li>
+<li>Feature Selection</li>
+<li>Standardization of features</li>
+<li>Machine Learning Data Modeling (for our Prediction)</li>
 
 
 ![downloadnn](https://user-images.githubusercontent.com/92808101/177403088-d8cf9f58-af05-44a1-aa41-ed73de5a1ca9.png)
